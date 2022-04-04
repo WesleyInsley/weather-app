@@ -5,19 +5,6 @@ import { React, useState } from 'react';
 
 const App = () => {
 
-//PSEUDOCODE TIME-~_~_~_~_~_~_~_~_~_~_~_~_~_~_~_~_~__~~_~
-// TODO:
-// 1. let users input their City, State, and Country
-// 2. When they hit "get weather", we store that data in variables for later
-// 3. AFTER they click weather we run our fetch
-// 4. We display relevant data in a little box
-
-// That should be it - it should function as a normal app
-
-//here is how we fetch in Fahreinheit = https://api.openweathermap.org/data/2.5/weather?q={CITYNAME},{CITYCOUNTRY}&units=imperial&APPID=3826b8ffb7383777e79ffed16c81f6a4
-
-//PSEUDOCODE TIME-~_~_~_~_~_~_~_~_~_~_~_~_~_~_~_~_~__~~_~
-
  const [city, setCity] = useState('');
  const [state, setState] = useState('');
  const [country, setCountry] = useState('');
